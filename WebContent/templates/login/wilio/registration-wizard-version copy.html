@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Indian Airline</title>
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #fff;
+            font-size: 0.875rem;
+            line-height: 1.4;
+            font-family: "Work Sans", Arial, sans-serif;
+            color: #555;
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .hide,
+        .hidden {
+            display: none !important;
+        }
+
+        .img-fluid {
+            display: none;
+        }
+
+        .content-right {
+            padding: 50px;
+            height: 100%;
+            min-height: 100%;
+            overflow-y: scroll;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+
+
+        .container-fluid {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .row-height {
+            height: 100vh;
+        }
+
+        .content-left {
+            background-color: #434bdf;
+            padding: 0;
+        }
+
+        .content-left-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            min-height: 100%;
+            padding: 60px 90px 35px 90px;
+            background-color: #434bdf;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            background: transparent;
+            background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
+            background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+            background-image: url(https://images.unsplash.com/photo-1444313431167-e7921088a9d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1441&q=100);
+            vertical-align: middle;
+            background-position: center;
+        }
+
+        a#logo {
+            position: absolute;
+            left: 20px;
+            top: 15px;
+            display: block;
+            height: 35px;
+        }
+
+        img {
+            vertical-align: middle;
+            border-style: none;
+        }
+
+        #social {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+            margin: 0 0 25px 0;
+            padding: 0;
+        }
+
+        #social ul {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #social ul li {
+            float: left;
+            margin: 0 5px 10px 0;
+            list-style: none;
+        }
+
+        #social ul li a {
+            color: #fff;
+            opacity: 0.6;
+            text-align: center;
+            line-height: 35px;
+            display: block;
+            font-size: 16px;
+            font-size: 1rem;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .copy {
+            position: absolute;
+            bottom: 25px;
+            left: 0;
+            width: 100%;
+            opacity: 0.5;
+        }
+
+        .h2,
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3.main_question {
+            margin: 0 0 20px 0;
+            padding: 0;
+            font-weight: 500;
+            font-size: 18px;
+            font-size: 1.125rem;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #222;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-control {
+            border: 1px solid #d2d8dd;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-size: 0.875rem;
+            height: calc(2.55rem + 2px);
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #434bdf;
+        }
+
+        #bottom-wizard {
+            text-align: right;
+            margin-top: 25px;
+        }
+
+        .fp {
+            color: #4a5568;
+            font-size: .875rem;
+            font-weight: 600;
+
+        }
+
+        .fp:hover {
+            color: #2b6cb0;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        label {
+            color: #4a5568;
+            font-size: .95rem;
+            font-weight: 500;
+        }
+
+        .btn-info {
+            background-color: #4299e1 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid full-height">
+        <div class="row row-height">
+            <div class="col-lg-8 content-left">
+                <div class="content-left-wrapper">
+                    <a href="javascript:;" id="logo"><img src="img/logo.png" alt="" width="49" height="35"></a>
+                    <div id="social">
+                        <ul>
+                            <li><a href="javascript:;"><i class="icon-facebook"></i></a></li>
+                            <li><a href="javascript:;"><i class="icon-twitter"></i></a></li>
+                            <li><a href="javascript:;"><i class="icon-google"></i></a></li>
+                            <li><a href="javascript:;"><i class="icon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- /social -->
+                    <div class="copy" style="color: #040404;">© 2019 - present by indian Airline</div>
+                </div>
+                <!-- /content-left-wrapper -->
+            </div>
+            <!-- /content-left -->
+
+            <div class="col-lg-4 content-right" id="start">
+                <div style="width:100%">
+                    <!-- /top-wizard -->
+                    <form id="wrapped" method="POST" class="" id="loginForm">
+                        <h2 style="font-weight: 700;">Indian Airline</h2>
+                        <h3 class="main_question">Log in to your account</h3>
+                        <hr>
+                        <div class="form-group">
+                            <label class="">Role</label>
+                            <div class="styled-select clearfix">
+                                <select class="form-control required" name="role" onchange="getVals(this, 'role');">
+                                    <option value="-1" disabled>Select Role</option>
+                                    <option value="customer">Customer</option>
+                                    <option value="manager">Manager</option>
+                                    <option value="admin">Admin</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="">Username</label>
+                            <input type="text" id="usernameL" name="first_name" class="form-control required"
+                                placeholder="Username" onchange="getVals(this, 'usernameL');">
+                        </div>
+                        <div class="form-group">
+                            <label class="">Password</label>
+                            <input class="form-control required" type="password" id="passwordL" name="passwordL"
+                                placeholder="Password" onchange="getVals(this, 'passwordL');">
+                        </div>
+                        <div class="text-right mt-2">
+                            <a href="javascript:;" class="fp">Forgot Password?</a>
+                        </div>
+                        <div id="bottom-wizard">
+                            <button type="button" name="forward" class="btn btn-danger clearBtn hide">Clear</button>
+                            <button type="button" name="process" class="btn btn-info"
+                                style="width: 100% !important;">Submit</button>
+                        </div>
+                        <hr>
+                        <p class="mt-8" style="font-size: 1.1rem;">
+                            Need an account?
+                            <a href="javascript:;" style="font-weight: 600;">Create an account</a>
+                        </p>
+                    </form>
+                </div>
+                <!-- /Wizard container -->
+                <div class="copy" style="color: #040404;padding-left: 50px;">© 2019 - present by indian Airline</div>
+            </div>
+            <!-- /content-right-->
+        </div>
+        <!-- /row-->
+    </div>
+    <!-- /container-fluid -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+</body>
+
+</html>

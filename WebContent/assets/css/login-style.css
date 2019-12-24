@@ -1,0 +1,192 @@
+body {
+	background: #fff;
+	font-size: 0.875rem;
+	line-height: 1.4;
+	font-family: "Work Sans", Arial, sans-serif;
+	color: #555;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.hide, .hidden {
+	display: none !important;
+}
+
+.img-fluid {
+	display: none;
+}
+
+.content-right {
+	padding: 50px;
+	height: 100%;
+	min-height: 100%;
+	overflow-y: scroll;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row-height {
+	height: 100vh;
+}
+
+.content-left {
+	background-color: #434bdf;
+	padding: 0;
+}
+
+.content-left-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+	min-height: 100%;
+	padding: 60px 90px 35px 90px;
+	background-color: #434bdf;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	background: transparent;
+	background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
+	background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+	background-image:url(../img/login-img.jpg);
+	vertical-align: middle;
+	background-position: center;
+}
+
+a#logo {
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	display: block;
+	height: 35px;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+#social {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+
+ul, ol {
+	list-style: none;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+#social ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#social ul li {
+	float: left;
+	margin: 0 5px 10px 0;
+	list-style: none;
+}
+
+#social ul li a {
+	color: #fff;
+	opacity: 0.6;
+	text-align: center;
+	line-height: 35px;
+	display: block;
+	font-size: 16px;
+	font-size: 1rem;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.copy {
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.h2, h2 {
+	font-size: 2rem;
+}
+
+h3.main_question {
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-weight: 500;
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+}
+
+.form-group {
+	position: relative;
+}
+
+.form-control {
+	border: 1px solid #d2d8dd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	height: calc(2.55rem + 2px);
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #434bdf;
+}
+
+#bottom-wizard {
+	text-align: right;
+	margin-top: 25px;
+}
+
+.fp {
+	color: #4a5568;
+	font-size: .875rem;
+	font-weight: 600;
+}
+
+.fp:hover {
+	color: #2b6cb0;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+label {
+	color: #4a5568;
+	font-size: .95rem;
+	font-weight: 500;
+}
+
+.btn-info {
+	background-color: #4299e1 !important;
+}
+
+.form-control{
+	font-size: .95rem;
+}
